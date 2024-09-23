@@ -45,9 +45,9 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Asia/Islamabad').format('HH:mm:ss')
+        const xdate = moment.tz('Asia/Islamabad').format('DD/MM/YYYY')
+        const time2 = moment().tz('Asia/Islamabad').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌆`
  }
@@ -942,13 +942,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'repo':
             case 'git':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `*🎯𝙰𝙱𝙷𝙸-𝙱𝚄𝙶-𝙱𝙾𝚃 𝚂𝚌𝚛𝚒𝚙𝚝:* https://github.com/AbhishekSuresh2/ABHI-BUG-BOT`,
+                    text: `*🎯U S M A N 𝚂𝚌𝚛𝚒𝚙𝚝:* https://github.com/USMAN-SER`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} `,
-                            AbhinailUrl: 'https://i.ibb.co/7bPPRQ0/4bf4b7e0b042.jpg',
+                            AbhinailUrl: 'https://i.imgur.com/wcMmBtF.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerAbhinail: true
